@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Inter&family=Roboto:wght@300&display=swap');
+*{
+    font-family: 'DM Sans', sans-serif;
+}
+body{
+    margin: 0;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    font-weight: 300;
+    color: white;
+    height: 90px;
+    background-color:#6F6AF7;
+    font-size: larger;
+}
+#logo{
+    padding-left: 10px;
+    padding-top: 20px;
+}
+a{
+    padding-right: 110px;
+}
+.left-banner{
+    height: 50vh;
+    width: 378px;
+    padding-left: 35px;
+}
+.banner{
+    display:flex;
+    padding-top: 5%;
+}
+.right-banner{
+    display:inline-block;
+    background-color: #E5D8FF;
+    padding: 30px;
+    border-radius: 20px;
+    height: 46vh;
+    width: 70%;
+    box-sizing: border-box;
+
+}
+.right-banner p{
+    font-weight: 400;
+    font-size: 24px;
+    color: #6F7373;
+}
+.social{
+    position: sticky;
+    top: 110px;
+    margin-top:25vh;
+    float: right;
+}
+.social img{
+    height: 40px;
+    display: block;
+    width: fit-content;
+}
+.box-container{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.box1{
+    background-color: #929DFF;
+    color: white;
+    width: 17%;
+    padding:10px 15px;
+    box-shadow: 0px 9px 31px rgba(0, 0, 0, 0.4);
+    border-radius: 11px;
+
+}
+.box2{
+    background-color: #734CF2;
+    color: white;
+    width: 17%;
+    padding:10px 15px;
+    box-shadow: 0px 9px 31px rgba(0, 0, 0, 0.4);
+    border-radius: 11px;
+    font-weight: 700;
+    font-size: 16px;
+}
+.box3{
+    background-color: #734CF2;
+    color: white;
+    width: 17%;
+    padding:10px 15px;
+    box-shadow: 0px 9px 31px rgba(0, 0, 0, 0.4);
+    border-radius: 11px;
+    font-weight: 700;
+    font-size: 16px;
+}
+.box4{
+    background-color: #000000;
+    color: white;
+    width: 17%;
+    padding:10px 15px;
+    box-shadow: 0px 9px 31px rgba(0, 0, 0, 0.4);
+    border-radius: 11px;
+    font-weight: 700;
+    font-size: 16px;
+
+}
+.container{
+    width: 1300px;
+    height: 565px;
+    background-color: #483EFF;
+    border-radius: 11px;
+    margin-left: 111px;
+    margin-top: 5%;
+    display: inline-flex;
+}
+.flex-container{
+    width:100%;
+    height: 565px;
+    padding-left: 50px;
+    padding-top: 45px;
+
+}
+.flexbox {
+    color: white;
+    width: 300px;
+    height: 85px;
+    background-color: #483EFF;
+    border-style: solid white;
+    border-radius: 11px;
+    text-align: center;
+    padding-top: 55px;
+    font-weight: bolder;
+}
+.special{
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    background-color: white;
+
+}
+.container{
+    display: flex;
+    background-color: #483EFF;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+    border-radius: 21px;
+    height: 60vh;
+    margin-bottom: 10vh;
+}
+
+.left-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.info-heading{
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.105em;
+    color: #04285A;
+}
+.info{
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.105em;
+    color: #04285A;
+}
+.left-container button{
+    padding: 15px 35px;
+    background-color: transparent;
+    border-color: white;
+    border-radius: 12px;
+    color: white;
+    font-weight: 700;
+    border-style: solid;
+}
+
+.left-container button:first-of-type{
+   background: #BCE0F6;
+   color: black;
+   box-shadow: 0px 6px 35px rgba(0, 0, 0, 0.39);
+}
+.right-container{
+    box-sizing: border-box;
+    width: 70%;
+    height: 90%;
+    background-color: white;
+    margin: 2% 0 2% 0;
+    border-radius: 20px;
+    padding: 20px 30px;
+    position: relative;
+}
+.help{
+    background-color: white;
+    border-radius: 100%;
+    position: fixed;
+    right: 60px;
+    bottom: 20px;
+    box-shadow: 0px 9px 31px rgba(0, 0, 0, 0.4);
+    padding: 7px;
+    width: 50px;
+    height: 50px;
+}
+.help img{
+    width: 50px;
+    height: 50px;
+}
+.next-button{
+    background-color: black;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    padding: 10px 20px;
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 6px;
+    position: absolute;
+    right: 10px;
+    bottom: 30px;
+}
+
+.next-button img{
+    width: 20px;
+    margin-left: 7px;
+}
